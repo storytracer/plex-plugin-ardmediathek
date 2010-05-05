@@ -1,0 +1,26 @@
+ARD Mediathek Plugin for Plex v0.1 alpha
+++++++++++++++++++++++++++++++++++++++++
+
+Dieses Plex Plugin bietet Zugriff auf die ARD Mediathek.
+Es befindet sich noch in einem frühen Entwicklungsstadium
+und arbeitet noch sehr instabil.
+
+------------
+INSTALLATION
+------------
+
+Die Datei "ARDMediathek.bundle" muss in diesen Ordner
+verschoben werden:
+
+(Benutzerordner)/Library/Application Support/Plex Media Server/Plug-ins/
+
+----------
+CHANGE LOG
+----------
+
+Version 0.1 alpha
+-----------------
+- erste Version
+- Auswahl nach Datum - 7 Tage zurück (Sendung verpasst?)
+- Auswahl nach Meistangesehenen Sendungen
+- einfaches Video-Playback
