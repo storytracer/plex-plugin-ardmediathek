@@ -1,4 +1,4 @@
-ARD Mediathek Plugin for Plex v0.1 alpha
+ARD Mediathek Plugin for Plex v0.1.1 alpha
 ++++++++++++++++++++++++++++++++++++++++
 
 Dieses Plex Plugin bietet Zugriff auf die ARD Mediathek.
@@ -18,7 +18,7 @@ verschoben werden:
 CHANGE LOG
 ----------
 
-Version 0.1 alpha
+Version 0.1.1 alpha
 -----------------
 - erste Version
 - Auswahl nach Datum - 7 Tage zurück (Sendung verpasst?)
