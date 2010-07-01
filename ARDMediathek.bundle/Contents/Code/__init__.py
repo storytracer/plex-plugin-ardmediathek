@@ -132,7 +132,7 @@ def MenuByDate(sender, url):
   
 def ParseShowName(element):
   nameElement = element.xpath(".//p[" + containing("mt-source") + "]")[0]
-  reShowName = re.search("aus: (.*)", nameElement.text)
+  reShowName = re.search("aus:(.*)", nameElement.text)
   showName = Utf8Decode(reShowName.group(1))
   
   return showName
@@ -194,7 +194,7 @@ def ParseShowDetails(documentID):
   showDuration = Utf8Decode(reShowDuration.group(0))
   
   nameElement = detailPage.xpath(".//p[" + containing("mt-source") + "]")[0]
-  reShowName = re.search("aus: (.*)", nameElement.text)
+  reShowName = re.search("aus:(.*)", nameElement.text)
   showName = Utf8Decode(reShowName.group(1))
   
   descriptionElement = detailPage.xpath(".//p[@class='mt-description']")[0]
